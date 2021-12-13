@@ -1,0 +1,18 @@
+
+.item {
+    width: 500px; 
+    height: 30px; 
+    margin: 5px auto; 
+    padding: 10px; 
+    background-color: #bdbdbd;
+}
+
+.item-even {
+    @extend .item;
+    background-color: #7d7ffc;
+}
+
+.item-odd {
+    @extend .item;
+    background-color: #4afd53;
+}
