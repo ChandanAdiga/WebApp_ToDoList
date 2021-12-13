@@ -12,8 +12,17 @@ Note: Plannig to create another branch based on ReactJS in future.
     $npm install -g @angular/cli
     $ng new frontend
     $cd frontend
-    $ng serve
     $ng --version (I have used Angular v13.+)
 
-### 2. 
+### 2. RUN:
+
+#### Option-1: Using ng serve:
+    $cd frontend
+    $npm start
+    < Available at http://localhost:4200 >
     
+#### Option-2: Using Docker:
+    $cd frontend
+    $docker build .
+    $docker run -p 8080:80 <image>
+    < Available at http://localhost:8080 >
