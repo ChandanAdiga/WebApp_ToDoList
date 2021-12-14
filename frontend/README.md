@@ -14,6 +14,9 @@ Note: Plannig to create another branch based on ReactJS in future.
     $cd frontend
     $ng --version (I have used Angular v13.+)
 
+    Install dependencies:
+    $npm install
+
 ### 2. RUN:
 
 #### Option-1: Using ng serve:
